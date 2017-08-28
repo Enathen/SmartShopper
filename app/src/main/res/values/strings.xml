@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">SmartShopper</string>
+
+
+    <string name="WelcomeLogin">Welcome please sign in!</string>
+    <string name="createAccountLogin">Create account</string>
+    <string name="menuLogin">Menu</string>
+    <string name="forgotPasswordLogin">Forgot password</string>
+    <string name="loginLogin">Login</string>
+    <string name="usernameLogin">Username</string>
+    <string name="alwaysLoggedInLogin">Always logged in</string>
+
+    <string name="passwordCreate">Password</string>
+    <string name="password2Create">acvderfg</string>
+    <string name="ageCreate">Age</string>
+    <string name="emailCreate">Email</string>
+    <string name="lastNameCreate">Last name</string>
+    <string name="firstNameCreate">First name</string>
+    <string name="usernameCreate">Username</string>
+    <string name="genderCreate">Gender</string>
+    <string name="ClassificationCreate">Classification</string>
+    <string name="olderThen13Create">I am older than 13</string>
+    <string name="classificationSpinnerCreate">SpinnerClass</string>
+    <string name="BackCreate">Back</string>
+
+
+    <string name="passwordDifficulty">Contain 8 letters</string>
+    <string name="passwordDifficulty2">Contain number</string>
+    <string name="passwordDifficulty3">Contain capital letter</string>
+    <string name="passwordDifficulty4">Contain symbol</string>
+
+    <string name="contentDescriptionApprove">Accepted</string>
+    <string name="contentDescriptionDisapprove">Not accepted</string>
+
+
+    <string name="errorEmailWrongLong">Email: Max 50</string>
+    <string name="errorEmailWrongShort">Email: Min 5</string>
+    <string name="errorEmailWrongSyntax">Email: Wrong syntax</string>
+    <string name="errorEmailWrongExist">Email: Already exists</string>
+
+    <string name="errorAge">Age: min 13</string>
+
+    <string name="errorUsernameExist">Username: Already exists</string>
+    <string name="errorUsernameShort">Username: Min 6</string>
+    <string name="errorUsernameLong">Username: Max 50</string>
+
+
+    <string name="errorPasswordShort">Password: Min 8</string>
+    <string name="errorPasswordLong">Password: Max 50</string>
+
+    <string name="errorFirstNameLong">First name: Max 50</string>
+    <string name="errorFirstNameShort">First name: Min 1</string>
+    <string name="errorLastNameShort">Last name: Min 1</string>
+    <string name="errorLastNameLong">Last name: Max 50</string>
+
+    <string name="errorLastName">Email: Already exists</string>
+
+
+</resources>

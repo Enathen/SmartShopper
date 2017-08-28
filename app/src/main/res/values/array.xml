@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="classificationSpinnerItems">
+        <item>Owner</item>
+        <item>Worker</item>
+        <item>Buyer</item>
+    </string-array>
+    <string-array name="genderSpinnerItems">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Else</item>
+    </string-array>
+</resources>

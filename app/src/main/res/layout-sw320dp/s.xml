@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editText5"
+
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="-3dp"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/fontColorText"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.531"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lastNameTextView" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="130dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+
+            android:layout_weight="0.5"
+            android:contentDescription="@string/passwordDifficulty"
+            app:layout_constraintLeft_toRightOf="@+id/passwordTextField"
+            app:layout_constraintTop_toBottomOf="@+id/passwordCorrectDifficultyTextView"
+            app:srcCompat="@drawable/pass0" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/fontColorText"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordTextView" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="0.5"
+            android:text="@string/passwordDifficulty"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toRightOf="@+id/passwordTextView"
+            app:layout_constraintTop_toBottomOf="@+id/ageTextField" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.5"
+            android:buttonTint="@color/colorPrimary"
+            android:text="@string/olderThen13Create"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/classificationSpinner" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.5"
+            android:labelFor="@id/usernameTextField"
+            android:text="@string/usernameCreate"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.01"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.5"
+            android:labelFor="@id/emailTextField"
+            android:text="@string/emailCreate"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstNameTextField" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.5"
+            android:contentDescription="@string/contentDescriptionApprove"
+            app:layout_constraintLeft_toRightOf="@+id/emailTextView"
+            app:layout_constraintTop_toBottomOf="@+id/lastNameTextField"
+            app:srcCompat="@drawable/approvebutton" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/fontColorText"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/lastNameTextField"
+            app:layout_constraintTop_toBottomOf="@+id/firstNameTextview" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.5"
+            android:labelFor="@id/ageTextField"
+            android:maxLength="10"
+            android:text="@string/ageCreate"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.46"
+            app:layout_constraintLeft_toRightOf="@+id/usernameTextView"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+
+            android:layout_weight="0.5"
+            android:labelFor="@id/classificationSpinner"
+            android:text="@string/ClassificationCreate"
+
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.032"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailTextField" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/bluebutton"
+            android:text="@string/createAccountLogin"
+            android:textAllCaps="false"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/olderCheckBox" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0.5"
+            android:entries="@array/genderSpinnerItems"
+            android:textColor="@color/fontColorTextWhite"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/genderTextView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="99dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="99dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.5"
+            android:labelFor="@id/lastNameTextField"
+            android:text="@string/lastNameCreate"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.534"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordTextField" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/fontColorText"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.5"
+            android:labelFor="@+id/firstNameTextField"
+            android:text="@string/firstNameCreate"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/lastNameTextView"
+            app:layout_constraintTop_toBottomOf="@+id/passwordTextField" />
+
+        <EditText
+
+            android:id="@+id/editText"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/fontColorText"
+
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/usernameTextView" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="0.5"
+            android:entries="@array/classificationSpinnerItems"
+
+
+            android:textColor="@color/fontColorTextWhite"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/genderSpinner"
+            app:layout_constraintTop_toBottomOf="@+id/ClassificationTextView" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.5"
+            android:labelFor="@id/passwordTextField"
+            android:text="@string/passwordCreate"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/usernameTextField" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.5"
+            android:contentDescription="@string/contentDescriptionApprove"
+            app:layout_constraintHorizontal_bias="0.439"
+            app:layout_constraintLeft_toRightOf="@+id/usernameTextView"
+            app:layout_constraintRight_toLeftOf="@+id/ageTextView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/approvebutton" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/fontColorText"
+            app:layout_constraintHorizontal_bias="0.28"
+            app:layout_constraintLeft_toRightOf="@+id/usernameTextField"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ageTextView" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="75dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginStart="8dp"
+
+
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.5"
+            android:labelFor="@id/genderSpinner"
+            android:text="@string/genderCreate"
+            android:textColor="@color/fontColorTextWhite"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailTextField" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+</LinearLayout>

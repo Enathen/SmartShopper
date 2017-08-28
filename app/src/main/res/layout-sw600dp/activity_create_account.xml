@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+
+    tools:context=".Activity.Login.CreateAccountScreen">
+
+    <EditText
+
+        android:id="@+id/usernameTextField"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/fontColorText"
+
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTextView" />
+
+    <EditText
+        android:id="@+id/ageTextField"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textColor="@color/fontColorText"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/ageTextView" />
+
+    <EditText
+        android:id="@+id/passwordTextField"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/fontColorText"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTextView" />
+
+    <EditText
+        android:id="@+id/firstNameTextField"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/fontColorText"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameTextview" />
+
+    <EditText
+        android:id="@+id/lastNameTextField"
+
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/fontColorText"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameTextView" />
+
+    <EditText
+        android:id="@+id/emailTextField"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/fontColorText"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+    <Spinner
+        android:id="@+id/classificationSpinner"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/classificationSpinnerItems"
+
+
+        android:textColor="@color/fontColorTextWhite"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ClassificationTextView" />
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/genderSpinnerItems"
+        android:textColor="@color/fontColorTextWhite"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/genderTextView" />
+
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+
+
+        android:background="@drawable/bluebutton"
+        android:text="@string/createAccountLogin"
+        android:textAllCaps="false"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/genderSpinner"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        android:layout_marginStart="8dp" />
+
+    <ImageView
+        android:id="@+id/usernameImageView"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/contentDescriptionApprove"
+
+        app:srcCompat="@drawable/approvebutton"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="6dp"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageView
+        android:id="@+id/emailimageView"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/contentDescriptionApprove"
+        app:srcCompat="@drawable/approvebutton"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameTextField"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="16dp"
+        android:labelFor="@id/usernameTextField"
+        android:text="@string/usernameCreate"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstNameTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="8dp"
+
+        android:labelFor="@+id/firstNameTextField"
+        android:text="@string/firstNameCreate"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTextField" />
+
+
+    <TextView
+        android:id="@+id/lastNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="8dp"
+        android:labelFor="@id/lastNameTextField"
+
+        android:text="@string/lastNameCreate"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTextField" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:labelFor="@id/emailTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emailCreate"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+        android:layout_marginStart="11dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="11dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameTextField" />
+
+    <TextView
+        android:id="@+id/genderTextView"
+        android:labelFor="@id/genderSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/genderCreate"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+
+
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextField"
+
+        android:layout_marginLeft="14dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:id="@+id/ageTextView"
+        android:labelFor="@id/ageTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:maxLength="10"
+        android:text="@string/ageCreate"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="11dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline" />
+
+    <TextView
+        android:id="@+id/ClassificationTextView"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:labelFor="@id/classificationSpinner"
+
+        android:text="@string/ClassificationCreate"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextField" />
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:labelFor="@id/passwordTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passwordCreate"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTextField"
+        android:layout_marginLeft="11dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="11dp" />
+
+    <ImageView
+        android:id="@+id/passwordDifficultyBarImageView"
+        android:layout_width="130dp"
+        android:layout_height="36dp"
+        android:contentDescription="@string/passwordDifficulty"
+
+        app:srcCompat="@drawable/pass0"
+        app:layout_constraintTop_toBottomOf="@+id/passwordCorrectDifficultyTextView"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/passwordCorrectDifficultyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/passwordDifficulty"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/ageTextField" />
+
+    <CheckBox
+        android:id="@+id/olderCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@color/colorPrimary"
+        android:checked="false"
+        android:text="@string/olderThen13Create"
+        android:textColor="@color/fontColorTextWhite"
+        android:textSize="@dimen/text_large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classificationSpinner" />
+
+    <android.support.constraint.Guideline
+
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="300dp" />
+
+
+</android.support.constraint.ConstraintLayout>

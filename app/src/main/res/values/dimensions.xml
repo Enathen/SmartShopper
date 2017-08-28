@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Small Dimensions = "Medium Dimensions * 0.75" For Example: 210*.75 = 157.5-->
+    <dimen name="button_width_small">193.5dip</dimen>
+    <dimen name="button_height_small">37.5dip</dimen>
+    <!-- Medium Dimensions -->
+    <dimen name="button_width_medium">258dip</dimen>
+    <dimen name="button_height_medium">50dip</dimen>
+    <!-- Large Dimensions = "Medium Dimensions * 1.5" For Example: 210*1.5 = 315 -->
+    <dimen name="button_width_large">387dip</dimen>
+    <dimen name="button_height_large">75dip</dimen>
+    <!-- XLarge Dimensions = "Medium Dimensions * 2" For Example: 210*2 = 420 -->
+    <dimen name="button_width_xLarge">516dip</dimen>
+    <dimen name="button_height_xLarge">100dip</dimen>
+
+    <dimen name="ceglogo_width_small">193.5dip</dimen>
+    <dimen name="ceglogo_height_small">75dip</dimen>
+    <dimen name="ceglogo_width_medium">258dip</dimen>
+    <dimen name="ceglogo_height_medium">100dip</dimen>
+    <dimen name="ceglogo_width_large">387dip</dimen>
+    <dimen name="ceglogo_height_large">150dip</dimen>
+    <dimen name="ceglogo_width_xLarge">516dip</dimen>
+    <dimen name="ceglogo_height_xLarge">200dip</dimen>
+
+    <dimen name="text_small">10.5sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_large">21sp</dimen>
+    <dimen name="text_xLarge">28sp</dimen>
+
+
+    <dimen name="editText_create_width_small">112.5dp</dimen>
+    <dimen name="editText_create_width_normal">150dp</dimen>
+    <dimen name="editText_create_width_large">225dp</dimen>
+    <dimen name="editText_create_width_xLarge">300dp</dimen>
+    <dimen name="editText_create_height_small">25dp</dimen>
+    <dimen name="editText_create_height_normal">40dp</dimen>
+    <dimen name="editText_create_height_large">60dp</dimen>
+    <dimen name="editText_create_height_xLarge">80dp</dimen>
+
+
+</resources>

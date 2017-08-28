@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?android:attr/spinnerDropDownItemStyle"
+
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:ellipsize="marquee"
+    android:textColor="@color/fontColorTextWhite"
+
+    android:background="@color/colorBackground"
+
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:textSize="40sp"
+    android:layout_gravity="center_vertical"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="2dp"
+    android:minHeight="2dp"
+
+    />
