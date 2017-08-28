@@ -14,8 +14,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import creativeendlessgrowingceg.smartshopper.Account.Account;
-import creativeendlessgrowingceg.smartshopper.Design.GenericOnFocusChange;
-import creativeendlessgrowingceg.smartshopper.Design.GenericTextWatcher;
+import creativeendlessgrowingceg.smartshopper.GenericOnFocusChange;
+import creativeendlessgrowingceg.smartshopper.GenericTextWatcher;
 import creativeendlessgrowingceg.smartshopper.R;
 
 public class CreateAccountScreen extends AppCompatActivity {

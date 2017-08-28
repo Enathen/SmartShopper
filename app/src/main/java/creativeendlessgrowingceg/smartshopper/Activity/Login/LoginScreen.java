@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.Button;
 
 import creativeendlessgrowingceg.smartshopper.Account.Account;
-import creativeendlessgrowingceg.smartshopper.Design.Design;
 import creativeendlessgrowingceg.smartshopper.Activity.Login.Start.MainStartSide;
+import creativeendlessgrowingceg.smartshopper.Design;
 import creativeendlessgrowingceg.smartshopper.R;
 
 public class LoginScreen extends AppCompatActivity {
