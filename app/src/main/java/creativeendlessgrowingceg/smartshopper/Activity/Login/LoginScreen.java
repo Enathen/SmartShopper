@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 
 import creativeendlessgrowingceg.smartshopper.Account.Account;
-import creativeendlessgrowingceg.smartshopper.Activity.Login.Start.MainStartSide;
 import creativeendlessgrowingceg.smartshopper.Design;
 import creativeendlessgrowingceg.smartshopper.R;
 
@@ -31,7 +30,7 @@ public class LoginScreen extends AppCompatActivity {
                 if (event.getAction() == MotionEvent.ACTION_UP) {
                     button.setBackgroundResource(R.drawable.bluebutton);
                     if (true) {
-                        startActivity(new Intent(LoginScreen.this, MainStartSide.class));
+                        startActivity(new Intent(LoginScreen.this, NavigationDrawer.class));
                     }
                 }
                 if (event.getAction() == MotionEvent.ACTION_DOWN) {

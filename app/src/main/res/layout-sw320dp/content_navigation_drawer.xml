@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="creativeendlessgrowingceg.smartshopper.Activity.Login.NavigationDrawer"
+    tools:showIn="@layout/app_bar_navigation_drawer">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/commercial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Commercials"
+                android:textColor="@color/fontColorTextWhite" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="389dp"
+                        android:layout_height="98dp"
+
+                        app:srcCompat="@drawable/bluebutton" />
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="389dp"
+                        android:layout_height="98dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/bluebutton" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Best suited for you"
+                android:textColor="@color/fontColorTextWhite" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="389dp"
+                        android:layout_height="98dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/greybutton" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="products you often buy"
+                android:textColor="@color/fontColorTextWhite" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="389dp"
+                        android:layout_height="98dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/greybutton" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

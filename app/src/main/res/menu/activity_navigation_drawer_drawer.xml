@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+        android:id="@+id/statistics"
+        android:icon="@drawable/stats"
+        android:title="Statistics" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:title="History" />
+        <item
+            android:id="@+id/favorites"
+            android:icon="@drawable/heartchecked"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/cogwheel"
+            android:title="Settings" />
+        <item
+            android:id="@+id/note"
+            android:icon="@drawable/note"
+            android:title="Grocery list" />
+        <item
+            android:id="@+id/saleTag"
+            android:icon="@drawable/saletag"
+            android:title="Mark-down price tags" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share with friends" />
+
+        </menu>
+    </item>
+
+</menu>
