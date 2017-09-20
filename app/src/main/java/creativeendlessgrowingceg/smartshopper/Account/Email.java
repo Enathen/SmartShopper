@@ -25,12 +25,7 @@ public class Email {
         Pattern p = Pattern.compile(".+@.+\\.[a-z]+");
         Matcher m = p.matcher(email);
         boolean matchFound = m.matches();
-        if (matchFound) {
-
-            return true;
-
-        }
-        return false;
+        return matchFound;
     }
 
     public boolean checkIfEmailExists() {

@@ -12,14 +12,14 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import creativeendlessgrowingceg.smartshopper.R;
 
-public class MapOfShops extends FragmentActivity implements OnMapReadyCallback {
+public class googleMapsShops extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map_of_shops);
+        setContentView(R.layout.activity_google_maps_shops);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);

@@ -41,7 +41,7 @@ public class AutoResizeEditText extends EditText {
          * text, it takes less space than {@code availableSpace}, > 0
          * otherwise
          */
-        public int onTestSize(int suggestedSize, RectF availableSpace);
+        int onTestSize(int suggestedSize, RectF availableSpace);
     }
 
     public AutoResizeEditText(final Context context) {

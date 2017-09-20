@@ -50,10 +50,8 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Activity.Login.MapOfShops"
-            android:label="@string/title_activity_map_of_shops">
-
-        </activity>
+            android:name=".Activity.Login.googleMapsShops"
+            android:label="@string/title_activity_google_maps_shops"></activity>
     </application>
 
 </manifest>

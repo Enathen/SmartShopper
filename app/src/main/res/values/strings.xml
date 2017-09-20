@@ -64,6 +64,7 @@
     <string name="title_activity_google_maps">Map</string>
     <string name="title_activity_google_map">Map</string>
     <string name="title_activity_map_of_shops">Map</string>
+    <string name="title_activity_google_maps_shops">Map</string>
 
 
 </resources>

@@ -58,7 +58,7 @@ public class NavigationDrawer extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        startActivity(new Intent(NavigationDrawer.this, MapOfShops.class));
+        startActivity(new Intent(NavigationDrawer.this, googleMapsShops.class));
         //noinspection SimplifiableIfStatement
 
 
