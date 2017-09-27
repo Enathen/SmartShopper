@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import creativeendlessgrowingceg.smartshopper.Activity.Login.Shopping.QR.ShoppingQR;
 import creativeendlessgrowingceg.smartshopper.R;
 
 public class NavigationDrawer extends AppCompatActivity
@@ -58,7 +59,7 @@ public class NavigationDrawer extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        startActivity(new Intent(NavigationDrawer.this, googleMapsShops.class));
+        startActivity(new Intent(NavigationDrawer.this, ShoppingQR.class));
         //noinspection SimplifiableIfStatement
 
 
